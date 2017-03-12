@@ -22,7 +22,7 @@ This library will handle the OAuth2 flow for retrieving and maintaing an access 
         'client_secret' => 'Your API Client Secret'
     ];
 
-    $linx = new LinxPay($options);
+    $linx = new Pickupman\LinxPay($options);
 ```
 
 
