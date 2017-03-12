@@ -1,0 +1,19 @@
+{
+    "name": "pickupman/linx-pay",
+    "description": "Payment processing for the Linx payment platform",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joe McFrederick",
+            "email": "jomcfred@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Pickupman\\" : "src/" }
+    },
+    "minimum-stability": "alpha",
+    "require": {
+        "sainsburys/guzzle-oauth2-plugin": "^3.0"
+    }
+}
